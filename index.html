@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>Загрязнение природы | Защитим нашу планету</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <i class="fas fa-leaf"></i>
+        <span>ЭкоЗабота</span>
+      </a>
+      
+      <div class="main-nav">
+        <nav>
+          <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#problems">Проблемы</a></li>
+            <li><a href="#facts">Факты</a></li>
+            <li><a href="#solutions">Решения</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle">
+          <i class="fas fa-moon dark-icon"></i>
+          <i class="fas fa-sun light-icon"></i>
+        </button>
+      </div>
+      
+      <div class="mobile-controls">
+        <button id="mobile-theme-toggle" class="theme-toggle">
+          <i class="fas fa-moon dark-icon"></i>
+          <i class="fas fa-sun light-icon"></i>
+        </button>
+        <button id="mobile-menu-button" class="mobile-menu-button">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <nav>
+        <ul>
+          <li><a href="#home">Главная</a></li>
+          <li><a href="#problems">Проблемы</a></li>
+          <li><a href="#facts">Факты</a></li>
+          <li><a href="#solutions">Решения</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1483197452165-7abc4393c843?auto=format&fit=crop&w=1920&h=1080" alt="Загрязненная природа">
+        <div class="image-overlay"></div>
+      </div>
+      
+      <div class="container">
+        <div class="hero-content">
+          <h1>Вместе против загрязнения природы</h1>
+          <p>Наша планета нуждается в защите. Узнайте о проблемах загрязнения окружающей среды и о том, что мы можем сделать вместе для сохранения природы.</p>
+          <div class="hero-buttons">
+            <a href="#problems" class="btn btn-primary">Узнать больше</a>
+            <a href="#contact" class="btn btn-secondary">Присоединиться</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="scroll-arrow">
+        <a href="#problems">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section id="problems" class="problems section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Основные проблемы загрязнения</h2>
+          <p>Загрязнение окружающей среды — одна из самых серьезных угроз для нашей планеты. Давайте рассмотрим основные источники загрязнения и их влияние на природу.</p>
+        </div>
+        
+        <div class="problems-grid">
+          <div class="problem-card">
+            <div class="problem-image">
+              <img src="https://images.unsplash.com/photo-1621451537084-482c73073a0f?auto=format&fit=crop&w=600&h=400" alt="Загрязнение пластиком">
+            </div>
+            <div class="problem-content">
+              <h3>Загрязнение пластиком</h3>
+              <p>Ежегодно в океаны попадает более 8 миллионов тонн пластика, который разрушает морские экосистемы и убивает животных.</p>
+              <a href="#" class="read-more">
+                Подробнее <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="problem-card">
+            <div class="problem-image">
+              <img src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?auto=format&fit=crop&w=600&h=400" alt="Загрязнение воздуха">
+            </div>
+            <div class="problem-content">
+              <h3>Загрязнение воздуха</h3>
+              <p>Промышленные выбросы, выхлопные газы и другие загрязнители ухудшают качество воздуха, вызывая респираторные заболевания.</p>
+              <a href="#" class="read-more">
+                Подробнее <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="problem-card">
+            <div class="problem-image">
+              <img src="https://images.unsplash.com/photo-1590274853856-f22d5ee3d228?auto=format&fit=crop&w=600&h=400" alt="Загрязнение воды">
+            </div>
+            <div class="problem-content">
+              <h3>Загрязнение воды</h3>
+              <p>Промышленные стоки, сельскохозяйственные удобрения и бытовые отходы загрязняют водные ресурсы планеты.</p>
+              <a href="#" class="read-more">
+                Подробнее <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number">
+              <span class="counter" data-value="8">0</span> млн
+            </div>
+            <p>тонн пластика попадает в океаны ежегодно</p>
+          </div>
+          
+          <div class="stat-item">
+            <div class="stat-number">
+              <span class="counter" data-value="91">0</span>%
+            </div>
+            <p>населения дышит загрязненным воздухом</p>
+          </div>
+          
+          <div class="stat-item">
+            <div class="stat-number">
+              <span class="counter" data-value="40">0</span>%
+            </div>
+            <p>лесов планеты уничтожено за последние 300 лет</p>
+          </div>
+          
+          <div class="stat-item">
+            <div class="stat-number">
+              <span class="counter" data-value="1000">0</span>+
+            </div>
+            <p>видов животных под угрозой из-за загрязнения</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facts Section -->
+    <section id="facts" class="facts section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Факты о загрязнении</h2>
+          <p>Узнайте больше о влиянии загрязнения на нашу планету и ее экосистемы.</p>
+        </div>
+        
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slide">
+              <div class="fact-card">
+                <div class="fact-image">
+                  <img src="https://images.unsplash.com/photo-1604187351574-c75ca79f5807?auto=format&fit=crop&w=800&h=500" alt="Микропластик">
+                  <div class="fact-title">
+                    <h3>Микропластик</h3>
+                  </div>
+                </div>
+                <div class="fact-content">
+                  <p>Микропластик обнаружен в 83% проб водопроводной воды по всему миру. Он также найден в морской соли, пиве и даже в воздухе, которым мы дышим.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="slide">
+              <div class="fact-card">
+                <div class="fact-image">
+                  <img src="https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?auto=format&fit=crop&w=800&h=500" alt="Климатические изменения">
+                  <div class="fact-title">
+                    <h3>Климатические изменения</h3>
+                  </div>
+                </div>
+                <div class="fact-content">
+                  <p>За последние 150 лет концентрация углекислого газа в атмосфере увеличилась на 48% из-за сжигания ископаемого топлива, что привело к глобальному потеплению.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="slide">
+              <div class="fact-card">
+                <div class="fact-image">
+                  <img src="https://images.unsplash.com/photo-1610890690846-5149750c8634?auto=format&fit=crop&w=800&h=500" alt="Мусорные острова">
+                  <div class="fact-title">
+                    <h3>Мусорные острова</h3>
+                  </div>
+                </div>
+                <div class="fact-content">
+                  <p>В Тихом океане находится «Большое тихоокеанское мусорное пятно» — скопление мусора площадью более 1,6 миллиона квадратных километров.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="slider-controls">
+            <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Решения проблемы загрязнения</h2>
+          <p>Каждый из нас может внести свой вклад в борьбу с загрязнением окружающей среды. Вот несколько эффективных решений:</p>
+        </div>
+        
+        <div class="solutions-grid">
+          <div class="solutions-image">
+            <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&h=600" alt="Переработка отходов">
+          </div>
+          
+          <div class="solutions-content">
+            <div class="solution-item">
+              <div class="solution-icon">
+                <i class="fas fa-recycle"></i>
+              </div>
+              <div class="solution-text">
+                <h3>Переработка отходов</h3>
+                <p>Сортировка и переработка мусора позволяет значительно сократить количество отходов, попадающих на свалки, и дать вторую жизнь полезным материалам.</p>
+              </div>
+            </div>
+            
+            <div class="solution-item">
+              <div class="solution-icon">
+                <i class="fas fa-seedling"></i>
+              </div>
+              <div class="solution-text">
+                <h3>Экологичный образ жизни</h3>
+                <p>Использование многоразовых товаров вместо одноразовых, сокращение потребления пластика, экономия воды и электроэнергии — простые шаги, которые может сделать каждый.</p>
+              </div>
+            </div>
+            
+            <div class="solution-item">
+              <div class="solution-icon">
+                <i class="fas fa-hands-helping"></i>
+              </div>
+              <div class="solution-text">
+                <h3>Участие в экологических инициативах</h3>
+                <p>Присоединяйтесь к субботникам, поддерживайте экологические организации, участвуйте в акциях по очистке природных территорий и образовательных программах.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="solutions-cta">
+          <a href="#contact" class="btn btn-primary">Присоединиться к борьбе за чистую планету</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>Начните заботиться о природе сегодня</h2>
+          <p>Каждое действие имеет значение. Вместе мы сможем создать более чистое и здоровое будущее для нашей планеты.</p>
+          <div class="cta-buttons">
+            <a href="#problems" class="btn btn-light">Узнать о проблемах</a>
+            <a href="#solutions" class="btn btn-primary">Посмотреть решения</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h2>Присоединяйтесь к нам</h2>
+            <p>Заполните форму, чтобы присоединиться к нашему сообществу и получать новости о предстоящих экологических мероприятиях и инициативах.</p>
+            
+            <div class="contact-details">
+              <h3>Свяжитесь с нами</h3>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>info@ecozabota.ru</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+7 (XXX) XXX-XX-XX</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>г. Москва, ул. Экологическая, 123</span>
+              </div>
+            </div>
+            
+            <div class="social-links">
+              <h3>Следите за нами</h3>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Имя</label>
+                <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Ваш email" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Сообщение</label>
+                <textarea id="message" name="message" rows="4" placeholder="Ваше сообщение" required></textarea>
+              </div>
+              
+              <div class="form-group checkbox">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Подписаться на новости и экологические инициативы</label>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-full">Отправить сообщение</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <i class="fas fa-leaf"></i>
+            <span>ЭкоЗабота</span>
+          </div>
+          <p>Вместе за чистое будущее нашей планеты.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-nav">
+          <h3>Навигация</h3>
+          <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#problems">Проблемы</a></li>
+            <li><a href="#facts">Факты</a></li>
+            <li><a href="#solutions">Решения</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Полезные ссылки</h3>
+          <ul>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Партнеры</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Мероприятия</a></li>
+            <li><a href="#">Пожертвовать</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-newsletter">
+          <h3>Подписка на новости</h3>
+          <p>Получайте последние новости и обновления о наших экологических инициативах.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Ваш email" required>
+            <button type="submit">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 ЭкоЗабота. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
